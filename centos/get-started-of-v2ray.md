@@ -103,7 +103,7 @@ server {
 }
 ```
 
-其中与 SSL 证书相关的配置参见 [https://docs.zerg.cc/centos/get-started-of-letsencrypt](https://docs.zerg.cc/centos/get-started-of-letsencrypt)。
+其中与 SSL 证书相关的配置参见 [/centos/get-started-of-letsencrypt.md](/centos/get-started-of-letsencrypt.md)。
 
 ### 3. 增加 CDN 设置
 

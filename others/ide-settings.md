@@ -79,9 +79,3 @@
     }
 ]
 ```
-
-## Eclipse
-
-[下载](https://cdn.unpkg.net/~metadream/backend@1.0.1/settings/)
-格式化配置文件，分别导入 Eclipse 中 Java/Javascript（后者需下载 Web Developer
-Tools 插件） 自定义 Formatter。

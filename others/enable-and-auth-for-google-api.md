@@ -18,4 +18,4 @@ ID，应用类型选“其他”。创建成功后会生成客户端 ID 和客�
 
 所以授权的核心是获取 refresh_token，可通过 Restful API
 方式，也可利用`Rclone`工具，详见
-[Rclone 安装与使用](https://docs.zerg.cc/centos/get-started-of-rclone)，进入`rclone.conf`配置文件查看。
+[Rclone 安装与使用](/centos/get-started-of-rclone.md)，进入`rclone.conf`配置文件查看。
