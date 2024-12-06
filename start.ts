@@ -1,4 +1,4 @@
-import "https://deno.land/x/book@0.1.0/mod.ts";
+import "https://deno.land/x/book@0.1.1/mod.ts";
 
 // deno run --allow-all start.ts
 // deno install --allow-all --no-check -r -f https://deno.land/x/deploy/deployctl.ts
