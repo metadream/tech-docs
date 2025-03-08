@@ -256,6 +256,14 @@ alsa =
 };
 ```
 
+`vi /etc/nftables.conf` 打开防火墙配置，开放如下端口：
+
+```
+tcp dport { 5000-5001 } accept
+udp dport { 5353, 6001-6003 } accept
+
+```
+
 启动和自启动：
 
 ```
