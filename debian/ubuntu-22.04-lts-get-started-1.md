@@ -122,6 +122,13 @@ sudo apt install ffmpegthumbnailer
 
 系统默认缩略图仅针对本机图片和视频，如果要在网络目录显示缩略图，进入文件管理器->首选项，分别设置为“所有位置”、“所有文件”、“所有文件夹”。
 
+### 6.1 支持HEIF
+```
+sudo apt install heif-gdk-pixbuf
+sudo apt install heif-thumbnailer
+rm -r ~/.cache/thumbnails/*
+```
+
 ## 7. 任务栏点击行为
 
 Ubuntu 点击任务栏图标的默认行为不像 Windows
