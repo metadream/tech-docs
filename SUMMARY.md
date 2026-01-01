@@ -2,6 +2,10 @@
 name: 文档库
 ---
 
+## AI
+
+- [IndexTTS-2 本地部署](/ai/index-tts-2-local-deployement.md)
+
 ## DEBIAN
 
 - [Ubuntu 22.04 LTS 新手上路系统篇](/debian/ubuntu-22.04-lts-get-started-1.md)
