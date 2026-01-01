@@ -2,5 +2,13 @@
   "compilerOptions": {
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
+  },
+  "deploy": {
+    "project": "82a48d34-3f9c-47de-a44e-744182d0d423",
+    "exclude": [
+      "**/node_modules"
+    ],
+    "include": [],
+    "entrypoint": "start.ts"
   }
 }
