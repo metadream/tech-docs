@@ -17,6 +17,9 @@
 - 微信支付平台：https://pay.weixin.qq.com
 - OneDrive 教育版：https://swccd0-my.sharepoint.com
 - Mapbox 地图开发：https://www.mapbox.com
+- Cloud IDE: 
+  - https://firebase.google.com/studio
+  - https://replit.com 
 
 ### 工具类
 
