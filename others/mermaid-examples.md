@@ -82,7 +82,7 @@ journey
 ```
 
 ```mermaid
-    gitGraph
+gitGraph
     commit
     commit
     branch develop
