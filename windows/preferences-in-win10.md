@@ -21,15 +21,19 @@
 ## 三. 安装其他软件
 
 1. 安装迅雷极速版（防升级）
-
+   
    1.1 将 `Data/ThunderPush` 目录设为只读，并在安全选项拒绝所有权限访问
-
+   
    1.2 删除 `Program/XLLiveUD.exe`，复制一份 `thunder.exe` 更名为 `XLLiveUD.exe`
 
 2. 安装 Office
+
 3. 安装 JDK
+
 4. 安装 Github Desktop
+
 5. 设置 Eclipse
+
 6. 关联 SublimeText：执行 sublime\_text\_settings.bat
 
 ## 四. 禁用不必要的服务
@@ -64,4 +68,3 @@ Windows.old, $SysReset, UserTemp
 ## 六. 系统备份
 
 设置 - 更新与安全 - 备份
-
