@@ -185,28 +185,28 @@ Debian 12 自带的防火墙工具是 ‵nftables‵，`vi /etc/nftables.conf`
 
 ```
 chain input {
-	type filter hook input priority 0; policy drop;
+    type filter hook input priority 0; policy drop;
 
-	# established/related connections
-	ct state established,related accept
+    # established/related connections
+    ct state established,related accept
 
-	# invalid connections
-	ct state invalid drop
+    # invalid connections
+    ct state invalid drop
 
-	# loopback interface
-	iif lo accept
+    # loopback interface
+    iif lo accept
 
-	# SSH (port 22)
-	tcp dport ssh accept
+    # SSH (port 22)
+    tcp dport ssh accept
 
-	# HTTP (ports 80 & 443)
-	tcp dport { http, https } accept
+    # HTTP (ports 80 & 443)
+    tcp dport { http, https } accept
 
-	# SAMBA (ports 445)
-	tcp dport 445 accept
+    # SAMBA (ports 445)
+    tcp dport 445 accept
 
-	# MPD (ports 6600)
-	tcp dport 6600 accept
+    # MPD (ports 6600)
+    tcp dport 6600 accept
 }
 ```
 
@@ -261,7 +261,6 @@ alsa =
 ```
 tcp dport { 5000-5001 } accept
 udp dport { 5353, 6001-6003 } accept
-
 ```
 
 启动和自启动：

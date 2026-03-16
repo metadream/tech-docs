@@ -11,12 +11,12 @@ BIOS，选择 U 盘启动，然后会进入 Ubuntu
 安装界面，基本上一路默认前行，其中两个步骤可以视情况调整：一是是否选择最小安装，二是硬盘分区。对于前者，最小化安装不包含
 Office、多媒体等办公娱乐软件；对于后者，官方认为无需分区，但传统习惯使然，还是可以考虑如下简单的分区方式：
 
-|   | Mount | FS   | Size      |
-| - | ----- | ---- | --------- |
-| 1 | /     | ext4 | 40G       |
-| 2 | /efi  |      | 500M      |
-| 3 | /swap |      | 8G        |
-| 4 | /home | ext4 | Remaining |
+|     | Mount | FS   | Size      |
+| --- | ----- | ---- | --------- |
+| 1   | /     | ext4 | 40G       |
+| 2   | /efi  |      | 500M      |
+| 3   | /swap |      | 8G        |
+| 4   | /home | ext4 | Remaining |
 
 安装结束后会自动重启电脑，并提示你拔掉 U 盘正式进入 Ubuntu
 系统。最小安装模式自带的软件有限，因此可能需要继续下述章节的优化与增强。
@@ -123,6 +123,7 @@ sudo apt install ffmpegthumbnailer
 系统默认缩略图仅针对本机图片和视频，如果要在网络目录显示缩略图，进入文件管理器->首选项，分别设置为“所有位置”、“所有文件”、“所有文件夹”。
 
 ### 6.1 支持HEIF
+
 ```
 sudo apt install heif-gdk-pixbuf
 sudo apt install heif-thumbnailer
