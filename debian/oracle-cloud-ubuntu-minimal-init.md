@@ -113,6 +113,7 @@ iptables -D INPUT 4
 netfilter-persistent save
 
 # 5. 重载规则
+iptables -F INPUT # 如果出现重复先清空再加载
 netfilter-persistent reload
 ```
 
