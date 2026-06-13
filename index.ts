@@ -1,1 +1,1 @@
-import "@focal/docify";
+export { default } from "@focal/docify";
