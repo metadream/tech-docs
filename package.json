@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@focal/docify": "npm:@jsr/focal__docify"
+  }
+}

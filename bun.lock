@@ -1,0 +1,14 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@focal/docify": "npm:@jsr/focal__docify",
+      },
+    },
+  },
+  "packages": {
+    "@focal/docify": ["@jsr/focal__docify@1.1.2", "https://npm.jsr.io/~/11/@jsr/focal__docify/1.1.2.tgz", {}, "sha512-bu8JUWeN76MbCqnhUbzyq4LlKxTzoOibkdNVC676lz6wfMS5B9WB3bbFib0hJupGbAOBKUbN0Y/9XItz6qgZJA=="],
+  }
+}
