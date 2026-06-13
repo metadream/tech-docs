@@ -2,7 +2,7 @@
     "bunVersion": "1.x",
     "functions": {
         "start.ts": {
-            "includeFiles": "{/**}"
+            "includeFiles": "{**,node_modules/@focal/docify/tmpl.html}"
         }
     }
 }
