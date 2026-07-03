@@ -12,7 +12,7 @@ name: 文档库
 - [Ubuntu 22.04 LTS 新手上路定制篇](/debian/ubuntu-22.04-lts-get-started-2.md)
 - [Ubuntu 22.04 LTS 新手上路软件篇](/debian/ubuntu-22.04-lts-get-started-3.md)
 - [Debian 12 Bookworm 服务器指南](/debian/debian-12-as-server.md)
-- [Oracle Cloud Ubuntu Minimal 服务器优化](/debian/oracle-cloud-ubuntu-minimal-init)
+- [Oracle Cloud Ubuntu Minimal 服务器优化](/debian/oracle-cloud-ubuntu-minimal-init.md)
 
 ## CENTOS
 
